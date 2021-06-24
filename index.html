@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StarWars</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="wrapper">
+    <header>
+      <h1 class="header__title">STAR WARS</h1>
+      <a class="header__link" href="https://swapi.dev/">API Документация</a>
+    </header>
+    <main class="content">
+      
+      <div class="search">
+        <input class="input" type="text" placeholder="  Введите число до 83"  maxlength="2"/>
+        <button class="search_button">Поиск</button>
+      </div>
+    
+      <section class="card">
+        <h2 class="card__title">Имя</h2>
+        <ul class="card__info">
+          <li class="card__gender">Пол:</li>
+          <li class="card__height">Рост:</li>
+          <li class="card__mass">Вес:</li>
+          <li class="card__homeplanet">Родная планета:</li>
+          <li class="card__eye-color">Цвет глаз: <div class="eye-color-indicator"style="background-color: black;"></div></li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <span class="footer_text">© Георгий Рыкунов</span>
+      <a href="https://github.com/MercurialG" class="github_link"
+        ><img src="images\GitHub.svg" alt=""
+      /></a>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
